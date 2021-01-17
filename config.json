@@ -1,10 +1,10 @@
 ﻿{
     "database": {
-        "host": "localhost",
+        "host": "us-cdbr-east-03.cleardb.com",
         "port": 3306,
-        "user": "root",
-        "password": "",
-        "database": "api-teste"
+        "user": "b3c9a9891fc573",
+        "password": "3679b77a",
+        "database": "heroku_273b242a89ff458"
     },
     "secret": "tomjunior"
 }
