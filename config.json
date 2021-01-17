@@ -1,9 +1,9 @@
 ﻿{
     "database": {
         "host": "us-cdbr-east-03.cleardb.com",
-        "user": "b9d4a1ea7123d8",
-        "password": "bf0964bf",
-        "database": "heroku_9e2bd408c37f82e"
+        "user": "b4122230fcc4cd",
+        "password": "661b6c8a",
+        "database": "heroku_26e2cc9ba9e7f50"
     },
     "secret": "tomjunior",
     "production": {
