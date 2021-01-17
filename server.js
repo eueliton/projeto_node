@@ -17,5 +17,7 @@ app.use('/products', require('./products/products.controller'));
 app.use(errorHandler);
 
 // inicializa servidor
-const port = process.env.NODE_ENV === 'production' ? (process.env.PORT || 80) : 4000;
-app.listen(port, () => console.log('Servidor rodando na porta ' + port));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}.`);
+});
