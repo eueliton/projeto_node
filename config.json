@@ -4,13 +4,7 @@
         "port": 3306,
         "user": "b3c9a9891fc573",
         "password": "3679b77a",
-        "database": "heroku_273b242a89ff458"
+        "database": "heroku_273b242a89ff4"
     },
-    "secret": "tomjunior",
-    "production": {
-        "use_env_variable": "DATABASE_URL",
-        "dialect": "mysql",
-        "operatorsAliases": false
-      }
-          
+    "secret": "tomjunior"
 }
