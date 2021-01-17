@@ -9,9 +9,9 @@ initialize();
 async function initialize() {
     // cria o banco de dados se não existe
     const { host, port, user, password, database } = config.database;
-    const connection = await mysql.createPoll({ host, port, user, password });
+    const connection = await mysql.createConnection({ host, port, user, password });
     await connection.query(`CREATE DATABASE IF NOT EXISTS \`${database}\`;`);
-   
+
     // conecta ao banco
     const sequelize = new Sequelize(database, user, password, { dialect: 'mysql' });
 
