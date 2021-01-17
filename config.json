@@ -8,7 +8,7 @@
     },
     "secret": "tomjunior",
        "production": {
-        "use_env_variable": "DATABASE_URL",
+        "use_env_variable": "mysql://b3c9a9891fc573:3679b77a@us-cdbr-east-03.cleardb.com/heroku_273b242a89ff458?reconnect=true",
         "dialect": "mysql",
         "dialectOptions": {
           "ssl": {
