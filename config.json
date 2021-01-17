@@ -6,5 +6,8 @@
         "password": "3679b77a",
         "database": "heroku_273b242a89ff458"
     },
-    "secret": "tomjunior"
+    "secret": "tomjunior",
+    "production": {
+        "use_env_variable": "DATABASE_URL"
+      }
 }

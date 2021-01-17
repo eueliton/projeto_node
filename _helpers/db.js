@@ -3,7 +3,7 @@ const mysql = require('mysql2/promise');
 const { Sequelize } = require('sequelize');
 
 module.exports = db = {};
-
+SequelizeConnectionRefusedError
 initialize();
 
 async function initialize() {
